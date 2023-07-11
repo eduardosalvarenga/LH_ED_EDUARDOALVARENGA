@@ -1,5 +1,9 @@
 # Data Pipeline with Postgres
 
+**Name:** Eduardo da Silva Alvarenga
+
+**Final file:** The final file is located in `data/final_query_results/1996-07-04/1996-07-04_final_query_result.csv`
+
 ## Introduction
 This project sets up a basic data pipeline which extracts data from a Postgres database (the orders is extracted based on the date that was mentioned, it's important to notice here that the orders table are only extracted if the date matches exactly, it does not extract for a range of dates for example), transforms the data as required, and then loads it into another Postgres database. The source database is connected using a docker-compose.yml file.
 
